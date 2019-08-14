@@ -1,0 +1,22 @@
+.header {
+  background: $dark-blue;
+  color: #ffffff;
+  margin-bottom: $xl-size;
+  padding: $m-size 0;
+}
+
+.header__title {
+  border-bottom: 2px solid darken($light-blue, 10%);
+  font-size: $l-size;
+  color: $off-white;
+  margin:0;
+  margin-bottom: $m-size;
+
+}
+
+.header__subtitle {
+  color: $off-white;
+  font-size: $m-size;
+  font-weight: 500;
+  margin: 0;
+}
